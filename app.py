@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import random
 import openpyxl
 
-
+st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 st.title("Sales Dashboard Analysis")
 
 @st.cache_data
