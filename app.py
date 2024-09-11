@@ -239,7 +239,8 @@ with top_left_column:
 
     with column_1:
         plot_metric(
-            " TotalReceivable ",
+            " Total Accounts
+            Receivable",
             6621280,
             prefix="$",
             suffix="",
@@ -250,7 +251,8 @@ with top_left_column:
 
     with column_2:
         plot_metric(
-            " Total Payable ",
+            " Total Accounts 
+            Payable",
             1630270,
             prefix="$",
             suffix="",
