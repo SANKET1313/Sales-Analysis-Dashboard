@@ -17,9 +17,7 @@ def load_data(path: str):
     
 # uploaded_file = st.sidebar.file_uploader("Choose a file")
 
-if uploaded_file is not None:
-    st.info("Upload a file through config", icon="i")
-    st.stop()
+
 
 
 df=load_data("Financial Data Clean.xlsx")
