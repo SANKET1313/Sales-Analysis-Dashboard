@@ -69,7 +69,7 @@ def plot_metric(label, value, prefix="", suffix="", show_graph=False, color_grap
         # paper_bgcolor="lightgrey",
         margin=dict(t=30, b=0),
         showlegend=False,
-        plot_bgcolor="white",
+        plot_bgcolor="black",
         height=100,
     )
 
