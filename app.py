@@ -14,10 +14,6 @@ def load_data(path: str):
     data=pd.read_excel("Financial Data Clean.xlsx")
     return data
 
-
-with st.sidebar:
-    st.header("Configuration")
-    uploaded_file = st.file_uploader("Choose a file")
     
 # uploaded_file = st.sidebar.file_uploader("Choose a file")
 
