@@ -70,7 +70,7 @@ def plot_metric(label, value, prefix="", suffix="", show_graph=False, color_grap
         margin=dict(t=28, b=21),
         showlegend=False,
         plot_bgcolor="black",
-        height=100,
+        height=210,
     )
 
     st.plotly_chart(fig, use_container_width=True)
