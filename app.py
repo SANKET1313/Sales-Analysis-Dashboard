@@ -67,10 +67,10 @@ def plot_metric(label, value, prefix="", suffix="", show_graph=False, color_grap
     fig.update_yaxes(visible=False, fixedrange=True)
     fig.update_layout(
         # paper_bgcolor="lightgrey",
-        margin=dict(t=100, b=0),
+        margin=dict(t=10, b=0),
         showlegend=False,
         plot_bgcolor="black",
-        height=90,
+        height=100,
     )
 
     st.plotly_chart(fig, use_container_width=True)
