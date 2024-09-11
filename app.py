@@ -70,7 +70,7 @@ def plot_metric(label, value, prefix="", suffix="", show_graph=False, color_grap
         margin=dict(t=10, b=0),
         showlegend=False,
         plot_bgcolor="black",
-        height=100,
+        height=250,
     )
 
     st.plotly_chart(fig, use_container_width=True)
@@ -239,7 +239,7 @@ with top_left_column:
 
     with column_1:
         plot_metric(
-            " Total Accounts Receivable ",
+            " TotalReceivable ",
             6621280,
             prefix="$",
             suffix="",
@@ -250,7 +250,7 @@ with top_left_column:
 
     with column_2:
         plot_metric(
-            " Total Accounts Payable ",
+            " Total Payable ",
             1630270,
             prefix="$",
             suffix="",
