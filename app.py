@@ -67,7 +67,7 @@ def plot_metric(label, value, prefix="", suffix="", show_graph=False, color_grap
     fig.update_yaxes(visible=False, fixedrange=True)
     fig.update_layout(
         # paper_bgcolor="lightgrey",
-        margin=dict(t=28, b=21),
+        margin=dict(t=50, b=25),
         showlegend=False,
         plot_bgcolor="black",
         height=210,
